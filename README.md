@@ -65,12 +65,21 @@
   ## 3. 버전관리도구
   - 버전관리 목적
   - 협업을 위한 목적
+  - 종류(SVN, GIT, 비트버킷)
   - git -> 버전관리도구
   - github -> git을 웹 클라우드 기반에서 동작 서비스
   - gitlab -> git을 회사서버 기반으로 동작(회사서버를 회사에서만 접속하도록 막음)
   - 아틀라시안 회사(비트버킷 + 소스트리)
 
 ## 3-1.초기 git 프로젝트 생성
++ Github (웹 클라우드 : Global)
++ PC or laptop(Local)
++ Global → Remote(원격) → Local
+
++ COMMIT : 로컬 버전 생성
++ PUSH :  로컬에서 생성된 버전을 원격 저장소(Github)에 업로드
++ PULL : 원격 저장소(Github)로부터 파일을 다운로드
+
 1.로컬: git 설치
 2.GITHUB: github rppository 생성
 3. 로컬: git conifg --global user. email and user.name 설정
