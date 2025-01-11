@@ -6,7 +6,7 @@
  - 이모지(Emoji)와 함께 많이 사용
 
 
- #2. 프로그래밍 언어
+ #2 프로그래밍 언어
  - 컴퓨터와 대화를 하기위해 필요한 언어
    + 자연어(Natural language):인간이 사용하는 언어(한국어, 영어, 일어, ...)
    + 프로그래밍 언어(Programmng Language)
@@ -60,9 +60,9 @@
   1. hello.c(소스 파일) : 코드 작성
   2. 컴파일러(gcc)      : 소스파일을 기계어로 번역
   3. Hello.exe
-  4.인터프리터: 코드라인 1줄 번역(Pyton)
+  4. 인터프리터         : 코드라인 1줄 번역(Pyton)
 
-  ## 3. 버전관리도구
+ ## 3. 버전관리도구
   - 버전관리 목적
   - 협업을 위한 목적
   - 종류(SVN, GIT, 비트버킷)
@@ -71,20 +71,21 @@
   - gitlab -> git을 회사서버 기반으로 동작(회사서버를 회사에서만 접속하도록 막음)
   - 아틀라시안 회사(비트버킷 + 소스트리)
 
-## 3-1.초기 git 프로젝트 생성
-+ Github (웹 클라우드 : Global)
-+ PC or laptop(Local)
-+ Global → Remote(원격) → Local
+ ## 3-1.초기 git 프로젝트 생성
+ + Github (웹 클라우드 : Global)
+ + PC or laptop(Local)
+ + Global → Remote(원격) → Local
 
-+ COMMIT : 로컬 버전 생성
-+ PUSH :  로컬에서 생성된 버전을 원격 저장소(Github)에 업로드
-+ PULL : 원격 저장소(Github)로부터 파일을 다운로드
+ + COMMIT : 로컬 버전 생성
+ + PUSH :  로컬에서 생성된 버전을 원격 저장소(Github)에 업로드
+ + PULL : 원격 저장소(Github)로부터 파일을 다운로드
 
-1.로컬: git 설치
-2.GITHUB: github rppository 생성
-3. 로컬: git config --global user. email and user.name 설정
-4. 로컬: git init
-5. 로컬: git add[파일]
-6. 로컬: git commit -m "init project"
-7. 로컬: git remote -v
-8. 로컬: git push -u origin master
+ 1.로컬: git 설치
+ 2.GITHUB: github rppository 생성
+ 3. 로컬: git config --global user. email and user.name 설정
+ 4. 로컬: git init
+ 5. 로컬: git add [file]
+ 6. 로컬: git commit -m "init project"
+ 7. 로컬: git remote add [repository 주소]
+ 8. 로컬: git remote -v
+ 9. 로컬: git push -u origin master
